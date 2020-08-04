@@ -37,10 +37,11 @@ class ViewController: UIViewController {
 
     func printOdd()
     {
-        while start <= end {
+//        while start <= end {
+        for _ in start...end {
             if(self.start % 2 == 1)
             {
-                print("\(Thread.current) -> : \(start)")
+                print("\(start)")
                 start += 1
                 self.semaphore.signal()
             }else {
@@ -51,10 +52,11 @@ class ViewController: UIViewController {
     
     func printEven()
     {
-        while start <= end {
+//        while start <= end {
+        for _ in start...end {
             if(self.start % 2 == 0)
             {
-                print("\(Thread.current) -> : \(start)")
+                print("\(start)")
                 self.start += 1
                 self.semaphore.signal()
             }else {

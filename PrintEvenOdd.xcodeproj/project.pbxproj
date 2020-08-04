@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AD76141924D0293900425651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD76141824D0293900425651 /* AppDelegate.swift */; };
-		AD76141B24D0293900425651 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD76141A24D0293900425651 /* SceneDelegate.swift */; };
 		AD76141D24D0293900425651 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD76141C24D0293900425651 /* ViewController.swift */; };
 		AD76142224D0293A00425651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD76142124D0293A00425651 /* Assets.xcassets */; };
 		AD76142524D0293A00425651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD76142324D0293A00425651 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		AD76141524D0293900425651 /* PrintEvenOdd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrintEvenOdd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD76141824D0293900425651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD76141A24D0293900425651 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AD76141C24D0293900425651 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD76142124D0293A00425651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD76142424D0293A00425651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				AD76141824D0293900425651 /* AppDelegate.swift */,
-				AD76141A24D0293900425651 /* SceneDelegate.swift */,
 				AD76141C24D0293900425651 /* ViewController.swift */,
 				AD76142124D0293A00425651 /* Assets.xcassets */,
 				AD76142324D0293A00425651 /* LaunchScreen.storyboard */,
@@ -136,7 +133,6 @@
 			files = (
 				AD76141D24D0293900425651 /* ViewController.swift in Sources */,
 				AD76141924D0293900425651 /* AppDelegate.swift in Sources */,
-				AD76141B24D0293900425651 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
